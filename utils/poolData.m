@@ -72,7 +72,7 @@ if(polyorder>=5)
 end
 
 if(usesine)
-    for k=1:10;
-        yout = [yout sin(k*yin) cos(k*yin)];
+    for k=1:10
+        yout = [yout, sin(k*yin), cos(k*yin)];
     end
 end
